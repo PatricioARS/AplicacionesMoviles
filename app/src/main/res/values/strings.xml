@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AplicacionesMoviles</string>
+    <string name="txt_nombre">Ingrese nombre</string>
+    <string name="txt_edad">Ingrese edad</string>
+    <string name="txt_carrera">Ingrese carrera</string>
+    <string name="bt_guardar"> Guardar Datos</string>
+    <string name="txt_rut">Ingrese Rut</string>
+    <string name="bt_volver">Volver</string>
+    <string name="bt_mostrar">Mostar datos</string>
+    <string name="bt_modificar">Actualizar datos</string>
+    <string name="bt_eliminar">Eliminar datos</string>
+    <string name="txt_datos_mostrados">Datos: </string>
+    <string name="bt_siguiente">Siguente </string>
+</resources>
