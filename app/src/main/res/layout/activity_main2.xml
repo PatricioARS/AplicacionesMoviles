@@ -7,6 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="738dp"
+        android:scaleType="fitXY"
+        tools:src="@tools:sample/avatars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/diseno_fondo_abstracto2" />
+
+
     <LinearLayout
         android:layout_width="372dp"
         android:layout_height="647dp"
@@ -24,7 +35,7 @@
             android:hint="@string/txt_rut"
             android:inputType="text"
             android:minHeight="48dp"
-            android:textColorHint="#B5B4B3" />
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/txt_nombre"
@@ -33,7 +44,8 @@
             android:ems="10"
             android:hint="@string/txt_nombre"
             android:inputType="text"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/txt_edad"
@@ -42,7 +54,8 @@
             android:ems="10"
             android:hint="@string/txt_edad"
             android:inputType="text"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/txt_carrera"
@@ -51,7 +64,8 @@
             android:ems="10"
             android:hint="@string/txt_carrera"
             android:inputType="text"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="@color/white" />
 
         <Space
             android:layout_width="match_parent"
@@ -85,7 +99,8 @@
             android:id="@+id/txt_datos_mostrados"
             android:layout_width="match_parent"
             android:layout_height="212dp"
-            android:text="@string/txt_datos_mostrados" />
+            android:text="@string/txt_datos_mostrados"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/bt_volver"
